@@ -25,3 +25,4 @@ with ZipFile(ZIP_NAME, 'w', ZIP_DEFLATED) as zipfile:
 
             zipfile.write(path, join(NAME, path))
 print('Created: ', ZIP_NAME)
+print'Created: ', ZIP_NAME
